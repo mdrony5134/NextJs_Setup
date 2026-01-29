@@ -1,9 +1,10 @@
-import React from 'react'
-
 function Navbar() {
   return (
-    <div className='text-3xl text-center'> It's Navbar section</div>
-  )
+    <div className="text-3xl text-center  text-white pt-5">
+      {" "}
+      It's Navbar section
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;

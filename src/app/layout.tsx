@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import logo from "@/assets/logo.svg"
+// import logo from "@/assets/logo.svg"
 // import logo from "@/assets/Logo.png";
 
 import ReduxProvider from "@/redux/ReduxProvider";
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Nextjs app",
   description: "Setup of nextjs app",
   icons: {
-    icon: logo.src,
+    // icon: logo.src,
   },
 };
 
